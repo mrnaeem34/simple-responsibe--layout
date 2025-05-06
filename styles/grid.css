@@ -31,3 +31,24 @@
     background-color: lightgray;
     
 }
+.container-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.sunset{
+    border: 1px solid lightgray;
+}
+
+.sunset img{
+      width: 100%;
+      border-radius: 10px;
+}
+@media screen and (max-width: 576px) {
+    .container-1{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
